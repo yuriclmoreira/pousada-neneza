@@ -1,12 +1,16 @@
-
-import './App.css';
-
+import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Home from "./pages/Home";
 function App() {
   return (
-    <div className="App">
-      <h1>OLa apenas teste</h1>
-    </div>
-  );
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </>
+  )
 }
-
 export default App;
+

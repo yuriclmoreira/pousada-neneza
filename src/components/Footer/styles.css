@@ -22,10 +22,13 @@
 .social button {
   background: none;
   border: none;
-  font-size: 3rem;
+  font-size: 2rem;
   cursor: pointer;
   display: flex;
+  margin-top: 0.5rem;
+  color: black;
 }
+
 .social p {
   display: flex;
   justify-content: center;
@@ -39,7 +42,7 @@
   list-style: none;
   padding: 0;
   padding-bottom: 1rem;
-
+  width: 100%;
   margin: 0;
 }
 

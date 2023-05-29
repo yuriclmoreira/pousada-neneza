@@ -19,8 +19,6 @@ const Footer = () => {
     function openBooking() {
         window.open(' https://www.booking.com/hotel/br/pousada-da-neneza.pt-br.html');
         /**
-         <li><button className="social-icon" onClick={openTripadvisor}><FaTripadvisor /></button></li>
-                        <li><button className="social-icon" onClick={openTripadvisor}><TbBrandBooking /></button></li>
          */
     }
 
@@ -41,8 +39,10 @@ const Footer = () => {
                     <ul className="social_list">
                         <li><button className="social-icon" onClick={openInsta}><FaInstagram /></button></li>
                         <li><button className="social-icon" onClick={openWhatsapp}><FaWhatsapp /></button></li>
-
+                        <li><button className="social-icon" onClick={openTripadvisor}><FaTripadvisor /></button></li>
+                        <li><button className="social-icon" onClick={openBooking}><TbBrandBooking /></button></li>
                     </ul>
+
                 </div>
             </Container>
         </div>

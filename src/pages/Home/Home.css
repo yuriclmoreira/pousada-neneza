@@ -12,9 +12,7 @@
   margin-bottom: 1rem;
 
   background-color: rgb(121, 185, 181);
-  border-radius: 51% 49% 38% 62% / 73% 19% 81% 27%;
-  -webkit-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
-  -moz-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  border-radius: 1rem;
   box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
 }
 .image {

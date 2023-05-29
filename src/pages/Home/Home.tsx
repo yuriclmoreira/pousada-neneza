@@ -21,9 +21,7 @@ function Home() {
                         alt="First slide"
                         style={{ maxHeight: '90vh' }}
                     />
-                    <Carousel.Caption>
-                        <h1>Pousada da Neneza</h1>
-                    </Carousel.Caption>
+
 
                 </Carousel.Item>
                 <Carousel.Item>
@@ -33,9 +31,7 @@ function Home() {
                         alt="First slide"
                         style={{ maxHeight: '90vh' }}
                     />
-                    <Carousel.Caption>
-                        <h1>Pousada da Neneza</h1>
-                    </Carousel.Caption>
+
 
                 </Carousel.Item>
 
@@ -71,7 +67,7 @@ function Home() {
 
                         <h1>Conheça nosso espaço</h1>
                         <p>
-                            Explore nossos espaços e encante-se! Clique aqui para conhecer mais.
+                            Explore nossos espaços e encante-se! Dispomos de áreas externas e internas incríveis que irão surpreender você em seu evento. Clique aqui para conhecer mais.
                         </p>
                         <Button href="/galeria" variant="outline-dark">Conheça nosso espaço</Button>
                     </div>

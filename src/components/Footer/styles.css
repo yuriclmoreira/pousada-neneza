@@ -53,4 +53,8 @@
   .location p {
     width: max-content;
   }
+  .social button {
+    font-size: 3rem;
+    margin-right: 1rem;
+  }
 }

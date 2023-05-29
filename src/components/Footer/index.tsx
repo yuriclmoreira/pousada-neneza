@@ -18,8 +18,7 @@ const Footer = () => {
     }
     function openBooking() {
         window.open(' https://www.booking.com/hotel/br/pousada-da-neneza.pt-br.html');
-        /**
-         */
+
     }
 
     return (

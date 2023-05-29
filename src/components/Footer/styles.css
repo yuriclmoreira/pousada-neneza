@@ -1,0 +1,51 @@
+.footer {
+  background-color: rgb(121, 185, 181);
+  height: auto;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 1rem;
+}
+.location p {
+  margin: 0;
+  width: 300px;
+  word-wrap: break-word;
+  cursor: pointer;
+}
+.location p:hover {
+  color: blue;
+}
+.social button {
+  background: none;
+  border: none;
+  font-size: 3rem;
+  cursor: pointer;
+  display: flex;
+}
+.social p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+.social_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  padding-bottom: 1rem;
+  gap: 1rem;
+  margin: 0;
+}
+.social-icon:hover {
+  color: blue;
+}
+@media screen and (min-width: 1000px) {
+  .location p {
+    width: max-content;
+  }
+}

@@ -1,0 +1,73 @@
+.carousel {
+  margin-top: 4rem;
+}
+.cards {
+  margin: 3rem 0;
+  text-align: center;
+}
+.btn {
+  margin: 0.5rem;
+}
+.information {
+  margin-bottom: 1rem;
+
+  background-color: rgb(121, 185, 181);
+  border-radius: 51% 49% 38% 62% / 73% 19% 81% 27%;
+  -webkit-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+}
+.image {
+  width: 90%;
+  border-radius: 1rem;
+
+  -webkit-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+}
+
+.containerMap {
+  display: flex;
+  justify-content: center;
+}
+.map {
+  height: 22rem;
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 0.5rem;
+  -webkit-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  -moz-box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+  box-shadow: 6px 10px 30px -8px rgba(0, 0, 0, 0.64);
+}
+@media screen and (min-width: 1000px) {
+  .carousel {
+    margin-top: 0;
+  }
+  .image {
+    width: 25%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    margin: 2rem;
+  }
+  .cards {
+    display: flex;
+    text-align: justify;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .information {
+    margin: 0 3rem;
+    padding: 10rem 3rem;
+    height: 70%;
+  }
+  h1 {
+    padding-left: 1rem;
+  }
+
+  .map {
+    height: 30rem;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+}

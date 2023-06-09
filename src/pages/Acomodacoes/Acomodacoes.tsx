@@ -58,7 +58,7 @@ const servicos = [
     },
     {
         logo: FaDog,
-        texto: 'Permite pets',
+        texto: 'Não aceitamos pets',
 
     },
     {
@@ -128,8 +128,8 @@ const comodidades = [
     },
 ]
 function Acomodacoes() {
-    function openWhatsapp() {
-        window.open('https://api.whatsapp.com/send?phone=5532999595304');
+    function openBooking() {
+        window.open(' https://www.booking.com/hotel/br/pousada-da-neneza.pt-br.html');
     }
     return (
 
@@ -157,7 +157,7 @@ function Acomodacoes() {
                     <p >
                         Os quartos da pousada são cuidadosamente decorados, pensados para proporcionar aos hóspedes uma estadia memorável. Cada detalhe foi planejado para criar um ambiente acolhedor e relaxante, onde é possível descansar e recarregar as energias após um dia de passeios pelas belas paisagens da região.
                     </p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
             <div className="box">
@@ -217,11 +217,11 @@ function Acomodacoes() {
 
                                     <ListGroup.Item >
                                         <FaDoorOpen className="logo" />
-                                        Entrada - 14:00 - 16:00
+                                        Entrada - A partir das 10:00
                                     </ListGroup.Item>
                                     <ListGroup.Item >
                                         <FaDoorClosed className="logo" />
-                                        Saida - 10:00 - 12:00
+                                        Saida - A partir das 12:00
                                     </ListGroup.Item>
                                     <ListGroup.Item >
                                         <FaWhatsapp className="logo" />
@@ -256,23 +256,32 @@ function Acomodacoes() {
                 <Accordion defaultActiveKey={['0']} alwaysOpen style={{ width: '62rem' }}>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>
-                            O centro de Santa Cruz de Minas fica a que distância de Pousada da Neneza?
+                            Pousada da Neneza aceita pets?
                         </Accordion.Header>
                         <Accordion.Body>
-                            Pousada da Neneza fica a 1,8 km do centro de Santa Cruz de Minas.
+                            No momento não estamos aceitado nenhum tipo de pet.
                         </Accordion.Body>
                     </Accordion.Item>
+
                     <Accordion.Item eventKey="1">
                         <Accordion.Header>
-                            Que tipo de café da manhã é servido em Pousada da Neneza?
+                            O centro de Tiradentes fica a que distância de Pousada da Neneza?
                         </Accordion.Header>
                         <Accordion.Body>
-
-                            Os hóspedes em Pousada da Neneza podem aproveitar um café da manhã bem-avaliado durante a estadia.
+                            Pousada da Neneza fica a 5 km do centro de Tiradentes.
                         </Accordion.Body>
                     </Accordion.Item>
 
                     <Accordion.Item eventKey="2">
+                        <Accordion.Header>
+                            Que tipo de café da manhã é servido em Pousada da Neneza?
+                        </Accordion.Header>
+                        <Accordion.Body>
+                            Os hóspedes em Pousada da Neneza podem aproveitar um café da manhã bem-avaliado durante a estadia.
+                        </Accordion.Body>
+                    </Accordion.Item>
+
+                    <Accordion.Item eventKey="3">
                         <Accordion.Header>
                             Pousada da Neneza é popular entre famílias?
                         </Accordion.Header>
@@ -282,19 +291,19 @@ function Acomodacoes() {
                         </Accordion.Body>
                     </Accordion.Item>
 
-                    <Accordion.Item eventKey="3">
+                    <Accordion.Item eventKey="4">
                         <Accordion.Header>
                             Quais são os horários de check-in e check-out em Pousada da Neneza?
                         </Accordion.Header>
                         <Accordion.Body>
 
-                            O check-in em Pousada da Neneza é a partir das 14h00. O check-out é até as 12h00.
+                            O check-in em Pousada da Neneza é a partir das 10h00. O check-out é até as 12h00.
                         </Accordion.Body>
                     </Accordion.Item>
 
 
                 </Accordion>
-                <Button onClick={openWhatsapp} variant="secondary" className="btn-wt" size="lg">
+                <Button onClick={openBooking} variant="secondary" className="btn-wt" size="lg">
                     Reserve Já
                 </Button>
             </div>

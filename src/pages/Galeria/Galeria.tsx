@@ -82,8 +82,8 @@ const imgBistro = [
 ];
 
 function Galeria() {
-    function openWhatsapp() {
-        window.open('https://api.whatsapp.com/send?phone=5532999595304');
+    function openBooking() {
+        window.open(' https://www.booking.com/hotel/br/pousada-da-neneza.pt-br.html');
     }
     return (
 
@@ -110,7 +110,7 @@ function Galeria() {
 
                     <h1>Bistro</h1>
                     <p className="">Bistrô, com capacidade para 40 pessoas, com estacionamento, mobiliário e utensílios de cozinha incluso.Fogão industrial, geladeira, forno industrial e micro-ondas. Não temos freezer.Um lugar aconchegante e romântico.</p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
             <div className="cards reverse quartos ">
@@ -134,7 +134,7 @@ function Galeria() {
 
                     <h1>Hospedagem</h1>
                     <p className=""> Os quartos da pousada são cuidadosamente decorados, pensados para proporcionar aos hóspedes uma estadia memorável. Cada detalhe foi planejado para criar um ambiente acolhedor e relaxante, onde é possível descansar e recarregar as energias após um dia de passeios pelas belas paisagens da região.</p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@ function Galeria() {
                     <p >
                         Área verde, com um lindo gramado em meio à natureza, lugar ideal para um evento com capacidade para 50 pessoas, com estacionamento e mobiliário de jardim incluso. Não temos área coberta!
                     </p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
 
@@ -188,7 +188,7 @@ function Galeria() {
                     <p >
                         Enquanto seu filho se diverte em nossa encantadora casa de bonecas, você pode apreciar momentos de tranquilidade no gramado, degustando uma garrafa de vinho. Deixe que a imaginação dos pequenos voe livremente, enquanto você desfruta de momentos de serenidade. Uma combinação perfeita para toda a família em nossa pousada.
                     </p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
         </Container>

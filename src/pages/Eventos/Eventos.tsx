@@ -50,8 +50,8 @@ const imgBistro = [
 ];
 
 function Eventos() {
-    function openWhatsapp() {
-        window.open('https://api.whatsapp.com/send?phone=5532999595304');
+    function openBooking() {
+        window.open(' https://www.booking.com/hotel/br/pousada-da-neneza.pt-br.html');
     }
     return (
 
@@ -79,7 +79,7 @@ function Eventos() {
                     <p >
                         Área verde, com um lindo gramado em meio à natureza, lugar ideal para um evento com capacidade para 150 pessoas, com estacionamento e mobiliário de jardim incluso. Não temos área coberta!
                     </p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
 
@@ -103,8 +103,8 @@ function Eventos() {
                 <div className="information">
 
                     <h1>Bistro</h1>
-                    <p>Bistrô, com capacidade para 40 pessoas, com estacionamento, mobiliário e utensílios de cozinha incluso.</p>
-                    <Button variant="outline-dark" onClick={openWhatsapp}>Reserve agora</Button>
+                    <p>Bistrô, com capacidade para 40 pessoas, com estacionamento, mobiliário e utensílios de cozinha incluso. Nossa cozinha está equipada com aparelhos industriais capazes de atender a qualquer tipo de evento.</p>
+                    <Button variant="outline-dark" onClick={openBooking}>Reserve agora</Button>
                 </div>
             </div>
 

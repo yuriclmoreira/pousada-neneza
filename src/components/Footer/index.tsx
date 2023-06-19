@@ -34,6 +34,7 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="social">
+                    <p>CNPJ: 14.793.437/0001-34 </p>
                     <p>Visite nossas redes sociais </p>
                     <ul className="social_list">
                         <li><button className="social-icon" onClick={openInsta}><FaInstagram /></button></li>

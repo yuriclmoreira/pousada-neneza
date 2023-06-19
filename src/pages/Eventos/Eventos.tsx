@@ -13,6 +13,8 @@ import imgE8 from "../../assets/externo/8.jpg";
 import imgE9 from "../../assets/externo/9.jpg";
 import imgE10 from "../../assets/externo/10.jpg";
 import imgE11 from "../../assets/externo/11.jpg";
+import imgE12 from "../../assets/externo/12.jpg";
+import imgE13 from "../../assets/externo/13.jpg";
 import imgB1 from "../../assets/bistro/1.jpg";
 import imgB2 from "../../assets/bistro/2.jpg";
 import imgB3 from "../../assets/bistro/3.jpg";
@@ -33,7 +35,9 @@ const imgExterno = [
     imgE8,
     imgE9,
     imgE10,
-    imgE11
+    imgE11,
+    imgE12,
+    imgE13
 ];
 
 
